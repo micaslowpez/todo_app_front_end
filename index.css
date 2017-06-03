@@ -1,8 +1,14 @@
 ul{
   list-style: none;
-  font-size: 20px;
+  font-size: 15px;
+}
+h1 {  font-size: 35px;
+    
 }
 
+h2 {
+    font-size: medium
+}
 li{
   margin-bottom: 10px;
   padding: 5px;
@@ -18,17 +24,17 @@ span{
   padding: 5px 10px 5px 10px;
 }
 
-.completed-todo{
+.completed-task{
   text-decoration: line-through;
 }
 
-#new-todo-block{
+#new-task-block{
   width: 60%;
   margin: 20px auto 0px auto;
 }
 
-#add-new-todo-button{
+#add-new-task-button{
   display: block;
-  background-color: #03A9F4;
+  background-color: rgb(fffff);
   margin-top: 10px;
 }
