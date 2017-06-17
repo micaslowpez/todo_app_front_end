@@ -1,15 +1,23 @@
 <html>
   <head>
+    <link rel="stylesheet" href="show.css" type="text/css" />
+
     <title>To Do Application</title>
   </head>
   <body>
    
-    <h2>Wash dishes</h2>
-     <input type="checkbox"> <br>
+    <h1>Wash dishes</h1>
+    <h3>Label: Chores</h3>
+    <p>(description of task)</p>
+     <input type="checkbox" name="checkbox" id="checkbox_id" value="value">
+<label for="checkbox_id">Completed</label>
+     <br>
+  
      
-    <a href="#">Edit</a>
-    <a href="#">Delete</a>
-    
-    <a href="index.html">Go back...</a>
+     <input type="submit" value="Edit">
+    <input type="submit" value="Delete">
+    <form action="index.html">
+    <input type="submit" value="Go back" />
+</form>
   </body>
 </html>
